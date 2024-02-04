@@ -3,7 +3,7 @@ import Link from "next/link";
 import Header from "../components/Header";
 import TopCards from "../components/TopCards";
 import Schedule from "../components/Schedule";
-import ScheduleDetails from "../components/ScheduleDetails";
+
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
         
         <Schedule/>
         
-        <ScheduleDetails/>
+       
       </div>
       
     </main>

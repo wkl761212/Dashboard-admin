@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -26,7 +27,7 @@ const Sidebar = ({children}) => {
                             <RxDashboard size={20}/>
                         </div>
                     </Link>
-                    <Link href='/trainee'>
+                    <Link href='/user'>
                         <div className='bg-gray-100 hover:bg-orange-200 cursor-pointer my-4 p-3 rounded-lg inline-black'>
                             <RxPerson size={20}/>
                         </div>
