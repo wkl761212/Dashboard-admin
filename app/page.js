@@ -11,7 +11,7 @@ export default function Home() {
     <main className="bg-gray-100 min-h-screen">
       <Header />
       <TopCards />
-      <div className="p-4 grid md:grid-cols-2 grid-cols-1 gap-4">
+      <div className="p-4 grid grid-cols-1 gap-4">
         
         <Schedule/>
         
@@ -21,3 +21,4 @@ export default function Home() {
     </main>
   );
 }
+//lg:col-span-2 col-span-1 bg-white flex justify-between w-full border p-4 rounded-lg
