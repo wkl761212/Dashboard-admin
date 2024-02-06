@@ -16,7 +16,7 @@ const Sidebar = ({children}) => {
         <div className='flex'>Sidebar
             <div className='fixed w-20 h-screen p-4 bg-white border-r-[1px] flex-col justify-between'>
                 <div className='flex flex-col items-center'>
-                    <Link href='/'>
+                    <Link href='https://iridescent-coach.com/'>
                         <div className='bg-orange-600 text-white p-3 rounded-lg inline-black'>
                             <TiHomeOutline size={20}/>
                         </div>
